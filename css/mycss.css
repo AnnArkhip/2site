@@ -5,6 +5,7 @@
 }
 header{
     background-image:url('../img/mainimage.png');
+    
     height: 100vh;
 }
 .headertop{
@@ -25,7 +26,12 @@ color: white;
 }
 .div1{
     justify-content: space-between;
+    display: flex;
 }
+/* .div1 p{
+    /* align-items: center;
+    height: 63px;}
+*/
 .lang ul{
     list-style-type:none;
     display: flex;
