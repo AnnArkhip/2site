@@ -10,7 +10,7 @@ header{
 }
 .headertop{
     display: flex;
-    height: 63px;
+    height: 80px;
     width: 1500px;
 color: white;
 margin-left: auto;
@@ -47,7 +47,7 @@ align-items: center;
 .lang ul li{
     margin-right: 16px;
 }
-.numb> h2{
+.numb> h3{
     margin-left: 64px;
     
 }
@@ -56,9 +56,10 @@ align-items: center;
     height: 63px;
     align-items: center;
 }
-.numb p{
-
-vertical-align: bottom;
+.numb> span{
+    white-space: pre-wrap;
+margin-right: 70px;
+margin-top: 40px;
 }
 .menu img{
     display: block;
@@ -74,31 +75,57 @@ vertical-align: bottom;
     margin-left: 10px;
 }
 .big{
-    margin-top: 500px;
-    margin-left: 250px;
+    margin-top: 350px;
+    margin-left: 80px;
     color: white;
-    font-size: 24px;
-    width: 500px;
+    font-size: 30px;
+    width: 700px;
+    font-family: 'Yeseva One', cursive;
 }
-button{
+.button1>button{
     border-radius: 10px;
     background-color: white;
-    padding: 15px 30px 16px;
+    padding: 15px 16px;
     width: 186px;
 height: 25px;
 display: flex;
 align-items: center;
 white-space:nowrap; 
-}
-button{
-   
-    background-image: url('../img/Vector70.png');
-   background-position-x: 160px;
-   background-position-y: 10px;
-    background-repeat: no-repeat;
+font-family: 'Yeseva One', cursive;
+font-size: 12px;
 }
 .text{
     color: white;
-    margin-left: 250px;
-    margin-top: 150px;
+    margin-left: 80px;
+    margin-top: 120px;
+    font-family: 'Yeseva One', cursive;
+}
+.button2>button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 16px;
+    gap: 20px;
+    
+    width: 207px;
+    height: 59px;
+    background: #FFFFFF;
+border-radius: 10px;
+position: relative;
+left: 70px;
+top: 30px;
+font-family: 'Yeseva One', cursive;
+font-size: 13px;
+
+}
+.button2>img{
+    position: absolute;
+    left: 260px;
+    bottom: 260px;
+}
+.button1>img{
+    position: absolute;
+    left: 1570px;
+    top: 33px;
 }
